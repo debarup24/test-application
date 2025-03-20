@@ -37,3 +37,37 @@ const ScreenSize = () => {
 
 export default ScreenSize
 
+// calculating Screen Height 
+  //const [maxFeatures, setMaxFeatures] = useState(4);  
+	// const [windowDim, detectHW] = useState({
+	// 	winHeight: window.innerHeight,	 
+	//    })
+	  
+	//  //  const [maxFeatures, setMaxFeatures] = useState(4);  
+	//    const detectSize = () => {
+	// 	 detectHW({
+	// 		 winHeight: window.innerHeight,
+	// 	 })
+	//    }
+	// 	 useIsomorphicLayoutEffect(() => {
+	// 		 window.addEventListener('resize', detectSize) ;	 
+	// 		 return() => {
+	// 			 window.removeEventListener('resize', detectSize)
+	// 		 }
+	// 	 }, [windowDim])
+
+	//  console.log('Current Screen Height :', windowDim.winHeight)
+
+	//  useIsomorphicLayoutEffect(() => {
+	// 	if(windowDim.winHeight < 266 )  {
+	// 		setMaxFeatures(0);
+	//     } else if(windowDim.winHeight < 341 ) {
+	// 	 setMaxFeatures(1);
+	//     } else if (windowDim.winHeight < 417) {
+	// 	  setMaxFeatures(2);
+	// 	} else if (windowDim.winHeight < 492) {
+	// 	  setMaxFeatures(3);
+	// 	} else {
+	// 	  setMaxFeatures(4);
+	// 	}
+	//   }, [windowDim.winHeight]);
