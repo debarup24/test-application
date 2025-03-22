@@ -34,4 +34,40 @@ const GetElementHeight = () => {
 export default GetElementHeight;
 
 
+// calculating Sidebar Height 
+// const [sidebarHeight, setSidebarHeight] = useState(0);
+// 	const [tabContainerHeight, setTabContainerHeight] = useState(0);
+// 	const [sidebarItemsDynamically, setSidebarItemsDynamically] = useState(5);
+//     const refSidebar = useRef(null);
+// 	const refTabContainer = useRef(null);
 
+// useIsomorphicLayoutEffect(() => {
+//   const updateHeight = () => {
+//   if (refSidebar.current) {
+//     setSidebarHeight(Math.round(refSidebar.current.getBoundingClientRect().height));
+//    }
+// if (refTabContainer.current) {
+//     setTabContainerHeight(Math.round(refTabContainer.current.getBoundingClientRect().height));
+//    }
+//   };
+
+// updateHeight();
+// window.addEventListener("resize", updateHeight);
+
+// return () => window.removeEventListener("resize", updateHeight);
+
+// }, []);
+
+// useIsomorphicLayoutEffect(() => {
+  
+// if (sidebarHeight > 187) {  // (188 - 56 -56) / 76 = 1
+//  setSidebarItemsDynamically(Math.floor((sidebarHeight - tabContainerHeight -56) / (tabContainerHeight+20))); // 20 gap,
+//  } else {
+//    setSidebarItemsDynamically(2); 
+//  }
+
+// }, [sidebarHeight]);
+   
+// console.log("1.Sidebar Uppr Height :", sidebarHeight ) ;
+// console.log("2. Tabcontainer Height :", tabContainerHeight ) ;
+// console.log("3. Items :", sidebarItemsDynamically ) ;
