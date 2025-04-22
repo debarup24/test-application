@@ -22,7 +22,7 @@ const Navbar = () => {
         </button>
 
         <p className="font-semibold md:text-lg lg:text-lg text-sm">
-          Wylo <span className="text-red-400">Social</span>
+          WYLO <span className="text-red-400">Social</span>
         </p>
       </div>
 
