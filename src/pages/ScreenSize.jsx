@@ -29,8 +29,8 @@ const ScreenSize = () => {
  
   return (
     <div className='p-8'>
-        <p>Width : <strong>{windowDim.winWidth}</strong> </p>
-        <p>Height : <strong>{windowDim.winHeight}</strong> </p>
+        <p>Width is: <strong>{windowDim.winWidth}</strong> </p>
+        <p>Height is: <strong>{windowDim.winHeight}</strong> </p>
     </div>
   )
 }
